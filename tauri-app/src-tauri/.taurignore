@@ -1,0 +1,4 @@
+
+resources/data/*
+resources/apps/*/.git/*
+resources/apps/*/.git

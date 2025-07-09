@@ -1,0 +1,9 @@
+{
+    "file_manager": {
+        "name": "File Manager",
+        "version": "1.0.0",
+        "author": "yf4jm",
+        "status": "not installed",
+        "url": "https://example.com/file_manager"
+    }
+}

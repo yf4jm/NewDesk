@@ -1,0 +1,91 @@
+{
+  "actions": {
+    "OnClick": {
+      "label": "On Click",
+      "options": {
+        "openApp": {
+          "label": "Open App",
+          "fields": [
+            {
+              "type": "select",
+              "name": "appName",
+              "label": "Select App",
+              "dynamicOptions": "apps"
+            }
+          ]
+        },
+        "changeTile": {
+          "label": "Change Tile",
+          "fields": [
+            {
+              "type": "select",
+              "name": "layer",
+              "label": "Select Layer",
+              "options": [
+                { "value": "0", "label": "Bottom" },
+                { "value": "1", "label": "Middle" },
+                { "value": "2", "label": "Top" }
+              ]
+            },
+            {
+              "type": "text",
+              "name": "tileCoords",
+              "label": "Tile Coordinates (x,y)"
+            }
+          ]
+        }
+      }
+    },
+    "OnHover": {
+      "label": "On Hover",
+      "options": {
+        "showTooltip": {
+          "label": "Show Tooltip",
+          "fields": [
+            {
+              "type": "text",
+              "name": "tooltipText",
+              "label": "Tooltip Text"
+            }
+          ]
+        }
+      }
+    },
+    "OnKeyPress": {
+      "label": "On Key Press",
+      "options": {
+        "move": {
+          "label": "Move Tile",
+          "fields": [
+            {
+              "type": "select",
+              "name": "direction",
+              "label": "Direction",
+              "options": [
+                { "value": "up", "label": "Up" },
+                { "value": "down", "label": "Down" },
+                { "value": "left", "label": "Left" },
+                { "value": "right", "label": "Right" }
+              ]
+            },
+            {
+              "type": "text",
+              "name": "keyCode",
+              "label": "Key Code (e.g., ArrowUp, ArrowDown)"
+            },
+            {
+              "type": "multiselect",
+              "name": "affectedLayers",
+              "label": "Affected Layers",
+              "options": [
+                { "value": "0", "label": "Bottom Layer" },
+                { "value": "1", "label": "Middle Layer" },
+                { "value": "2", "label": "Top Layer" }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+    "apps": [
+        {
+            "name": "file_manager",
+            "type": "static",
+            "description": "This is the file manager app",
+            "built": true,
+            "isPrivate": true,
+            "version":"1.0.0",
+            "author":"yf4jm",
+            "path": "./apps/internal/file_manager/app.jsx"
+        },
+        {
+            "name": "task_manager",
+            "type": "static",
+            "built": true,
+            "version":"1.0.0",
+            "isPrivate": true,
+            "author":"yf4jm",
+            "description": "This is the task manager app",
+            "path": "./apps/internal/task_manager/app.jsx"
+        },
+        {
+            "name":"default",
+            "type": "external",
+            "built": true,
+            "version":"1.0.0",
+            "author":"yf4jm",
+            "description":"external app",
+            "path":"/apps/default/dist/index.html",
+            "options": {
+                "window": {
+                    "title": "Default App",
+                    "width": 800,
+                    "height": 600,
+                    "devtools": true,
+                    "center": true
+                }
+            }
+        },
+        {
+            "name":"tileMapEditor",
+            "type": "external",
+            "built": true,
+            "version":"1.0.0",
+            "author":"yf4jm",
+            "description":"external app",
+            "path":"/apps/tileMapEditor/dist/index.html",
+            "options": {
+                "window": {
+                    "title": "tileMapEditor",
+                    "devtools": true,
+                    "center": true
+                }
+            }
+        },
+        {
+            "name":"calculator",
+            "type": "external",
+            "built": true,
+            "version":"1.0.0",
+            "author":"yf4jm",
+            "description":"external app",
+            "path":"/apps/calculator/dist/index.html",
+            "options": {
+                "window": {
+                    "title": "Calculator",
+                    "width": 390,
+                    "height": 505,
+                    "devtools": true,
+                    "center": true,
+                    "resizable": false
+                }
+            }
+        }
+    ]
+}

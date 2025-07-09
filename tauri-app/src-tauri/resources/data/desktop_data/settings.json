@@ -1,0 +1,17 @@
+{   
+    
+    "theme":"dark",
+    "APIkeys" : {
+        "openai": {
+                "apiKey": ""
+            },
+        "gemini": {
+                "apiKey": ""
+                
+            },
+        "authropic": {
+                "apiKey": ""
+            }
+        }
+    
+}

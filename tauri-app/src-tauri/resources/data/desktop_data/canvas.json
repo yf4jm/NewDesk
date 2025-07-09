@@ -1,0 +1,15 @@
+{
+    "canvas": {
+        "backgroundColor": "#FFFFFF",
+        "tileSize": 32,
+        "mapWidth":null,
+        "mapHeight":null,
+        "snapToGrid": true,
+        "sheets": [],
+        "activeSheet": null,
+        "layers": [{"name":null,
+                    "sheet":null,
+                      "tiles":[]}
+                    ]
+    }
+}

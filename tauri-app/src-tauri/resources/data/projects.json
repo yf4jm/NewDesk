@@ -1,0 +1,58 @@
+{
+  "projects": [
+    {
+      "id": "default",
+      "name": "Default Project",
+      "columns": [
+        {
+          "id": "In Progress",
+          "name": "In Progress",
+          "color": "bg-yellow-100",
+          "sort_order": "desc",
+          "tasks": [
+            {
+              "id": "1750688910524",
+              "name": "change desktop to a full screen canvas"
+            }
+          ]
+        },
+        {
+          "id": "To Do",
+          "name": "To Do",
+          "color": "bg-blue-100",
+          "sort_order": "asc",
+          "tasks": [
+            {
+              "id": "1750688929829",
+              "name": "2. display the layers of the map provided"
+            }
+          ]
+        },
+        {
+          "id": "Done",
+          "name": "Done",
+          "color": "bg-green-100",
+          "sort_order": "asc",
+          "tasks": [
+            {
+              "id": "1751297146042",
+              "name": "sba3 5ir"
+            }
+          ]
+        },
+        {
+          "id": "sba7 el 5ir",
+          "name": "sba7 el 5ir",
+          "color": "bg-gray-100",
+          "sort_order": "asc",
+          "tasks": [
+            {
+              "id": "1751297582371",
+              "name": "bonjour"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

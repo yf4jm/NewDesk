@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@plugin "daisyui"{
+    themes: light --default, dark --prefersdark;
+    root: ":root";
+    include: ;
+    exclude: ;
+    prefix: ;
+    logs: true;
+  }
+
+  input::-ms-reveal {
+  display: none;
+}
+input::-ms-clear {
+  display: none;
+}
